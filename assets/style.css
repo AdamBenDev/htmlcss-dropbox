@@ -7,7 +7,6 @@
 .container{
     max-width: 1152px;
     margin: 0 auto;
-    background-color: gray;
 }
 
 .d-flex{
@@ -54,3 +53,38 @@ li{
     align-items: center;
 }
  /*MAIN*/
+
+ .jumbotron{
+    height: 650px;
+    background-color: skyblue;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .col-3{
+    border: solid black;
+    width: 70%;
+    height: 70%;
+    display: flex;
+ }
+
+ .all-you-need img{
+    width: 100%;
+ }
+
+ .all-you-need{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .text-img{
+    display: flex;
+
+ }
+
+ /*BUSINESS PLAN*/
+
+.b-plan{
+    display: flex;
+    justify-content: center;
+}
