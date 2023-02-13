@@ -25,6 +25,8 @@ header{
     color: black;
 }
 
+
+
 .banner{
     height: 60px;
     flex-basis: 100%;
@@ -87,4 +89,45 @@ li{
 .b-plan{
     display: flex;
     justify-content: center;
+}
+
+.circle{
+    height: 12px;
+    width: 12px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 12px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.section-title{
+    display: flex;
+
+    
+}
+
+.small-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-plan-title{
+    width: 600px;
+}
+
+.choice > ul{
+    display: flex;
+}
+
+.choice li{
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.choice{
+    width: 60%;
+    height: 30px;
+    margin-bottom: 20px;
 }
