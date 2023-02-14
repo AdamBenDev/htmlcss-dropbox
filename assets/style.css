@@ -20,12 +20,21 @@
 }
 
 /*HEADER*/
-
+body{
+    padding-top: 70px;
+}
 header{
     color: black;
 }
 
+ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
 
+button{
+    padding: 4px 8px;
+  }
 
 .banner{
     height: 60px;
@@ -35,7 +44,6 @@ header{
 
 .col-1{
     display:flex;
-    align-items: center;
     
 }
 
@@ -44,9 +52,8 @@ header{
 }
 
 li{
-    display: inline;
-    text-decoration: none;
-    margin: 10px;
+    display: list-item;
+    text-align: left;
 }
 
 .col-2{
@@ -86,27 +93,26 @@ li{
 
  /*BUSINESS PLAN*/
 
-.b-plan{
-    display: flex;
-    justify-content: center;
-}
-
 .circle{
     height: 12px;
     width: 12px;
-    background-color: black;
     display: inline-block;
     border-radius: 50%;
     line-height: 12px;
     vertical-align: middle;
-    display: inline-block;
 }
 
-.section-title{
-    display: flex;
+.circle-blue{
+    border: 3px solid blue;
+  
+}
+
+.circle-white{
+    border: 1px solid grey ;
+}
 
     
-}
+
 
 .small-container{
     max-width: 800px;
@@ -114,20 +120,124 @@ li{
 }
 
 .section-plan-title{
-    width: 600px;
+    width: 70%;
 }
 
-.choice > ul{
+.choice-billing > ul{
     display: flex;
 }
 
-.choice li{
-    margin-right: 30px;
+.choice-billing li{
     vertical-align: middle;
+    margin-right: 30px;
 }
 
-.choice{
+span, li, a{
+    font-size: 12px;
+}
+
+.choice-billing{
     width: 60%;
     height: 30px;
     margin-bottom: 20px;
 }
+
+.section-plane-title{
+    width: 70%;
+}
+.section-title{
+    height: 80px;
+}
+
+.section-plan{
+    margin-top: 150px;
+}
+
+.vertical-row{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  .vertical-row > .column{
+    flex-basis: calc(100% / 3);
+    height: 650px;
+    border: 1px solid darkgray;
+  }
+
+  .customer-plan{
+    border-bottom: 1px solid darkgray;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+  }
+
+  .customer-plan-type{
+    min-height: 70px;
+  }
+
+  .customer-plan-features{
+    min-height: 130px;
+  }
+  
+  .customer-plan-features li{
+    width: 85%;
+  }
+  ul.icon-list > li {
+    display: flex;
+  }
+  
+  .icon-list > li > :first-child{
+    margin-right: 5px;
+  }
+  
+  .customer-plan-highlights li{
+    width: 90%;
+  }
+  
+  .customer-plan-test{
+    text-align: center;
+  }
+
+  .button-col-85{
+    width: 85%; 
+  }
+  
+  .customer-plan-buynow > .border-special{
+    padding-bottom: 20px;
+    border-bottom: 1px solid darkgray;
+  }
+
+  .customer-plan-highlights li{
+    margin-bottom: 10px;
+  }
+  
+  .customer-plan-type-horizontal{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .customer-plan-horizontal-content > p{
+    font-size: 12px;
+    width: 60%;
+  }
+
+  .mb-10{
+    margin-bottom: 10px;
+  }
+
+  .mb-50{
+    margin-bottom: 50px;
+  }
+
+  .pl-20{
+    padding-left: 20px;
+  }
+
+  .button-blue{
+    background-color: blue;
+    color: white;
+    border: 1px solid transparent;
+  }
