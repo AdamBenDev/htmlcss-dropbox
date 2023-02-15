@@ -37,7 +37,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    box-shadow: 0 0 3px darkgray;
+    box-shadow: 0 0 3px white;
     z-index: 1;
 }
 
@@ -65,7 +65,7 @@ button{
   }
 
   p{
-    font-size: 30px;
+    font-size: 14px;
   }
 
   span, li, a, button{
@@ -82,7 +82,6 @@ button, header li, a{
     flex-basis: 100%;
     display: flex;
     align-items: center;
-    background-color: white;
     padding: 0 5px;
 }
 
@@ -468,4 +467,39 @@ button, header li, a{
 
 .bg-bright-red{
     background-color: #d5001f;
+}
+/*DROPBOX COMPANY*/
+.dropbox-company{
+    background-color: #0093ce;
+}
+.dropbox-company-content{
+    height: 200px;
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropbox-company-content-title{
+    align-items: center;
+    color: #61082b;
+    flex-basis: 50%;
+}
+
+.dropbox-company-content-button{
+    text-align: center;
+}
+
+.dropbox-company-content button{
+    border: 1px solid white;
+    background-color: white;
+}
+
+/*SECTIONS FAQ*/
+.section-faq-title{
+    width: 50%;
+}
+
+.section-faq{
+    border-bottom: 1px solid darkgray;
 }
