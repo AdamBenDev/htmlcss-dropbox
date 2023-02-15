@@ -308,3 +308,70 @@ span, li, a{
 .column-operations{
     flex-basis: calc(100% / 3);
 }
+
+/*TEAM*/
+
+.section-team-title{
+    width: 60%;
+}
+
+.section-team-content{
+    width: 30%;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+/*SECTION SPONSOR*/
+
+.row-square{
+    display: flex;
+    height: 350px;
+}
+
+.column-square-left{
+    flex-basis: calc(100% / 3);
+}
+
+.column-square-center{
+    flex-basis: calc(100% / 3 );
+    background-color: gray;
+    border: 10px solid transparent;
+}
+
+.column-square-right{
+    flex-basis: calc(100% / 3)
+}
+
+.card-square-over, .card-square-bottom{
+    display: flex;
+    flex-basis: 100%;
+    height: 50%;
+}
+
+.content-square-lateral{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid transparent;
+
+}
+.row-square img{
+    width: 50%;
+}
+
+.pt-20{
+    padding-top:20px;
+}
+
+.paragraph-square{
+    width: 90%;
+}
+
+.border-empty-square{
+    width: 20%;
+    border-top: 1px solid darkgray;
+}
+
