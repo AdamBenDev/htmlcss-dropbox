@@ -41,6 +41,12 @@ header{
     z-index: 1;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+
 ul{
     list-style-type: none;
     padding-inline-start: 0;
@@ -502,4 +508,57 @@ button, header li, a{
 
 .section-faq{
     border-bottom: 1px solid darkgray;
+}
+
+.usual-faq{
+    height: 80px;
+    border-top: 1px solid darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-angle-down, .fa-angle-up{
+    padding-right: 30px;
+}
+
+/*FOOTER*/
+
+.footer-content{
+    padding: 80px 0;
+
+}
+
+.footer-top{
+    flex-basis: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-bottom{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom-content{
+    display: flex;
+    align-items: center;
+    color: darkgrey;
+}
+
+.footer-top li:first-child{
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.border-empty-footer{
+    border-top: 1px solid white;
+    width: 10%;
+}
+
+.language{
+    padding-left: 7px;
+    padding-right: 2px;
 }
