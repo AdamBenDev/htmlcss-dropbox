@@ -150,7 +150,7 @@ button, header li, a{
  }
 
  .jumbotron-content-description{
-    flex-basis: 35;
+    flex-basis: 35%;
  }
 
  .jumbotron-content-image{
@@ -161,24 +161,6 @@ button, header li, a{
 .jumbotron-content-description > a{
     color: black;
 }
-
-.arrow-special{
-    animation-name: bounce;
-    animation-duration: 0.5s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-  
-  @keyframes bounce {
-    0% {
-      transform: translateY(0);
-    }
-  
-    100% {
-      transform: translateY(15px);
-    }
-  }
 
  /*BUSINESS PLAN*/
 
