@@ -336,7 +336,7 @@ span, li, a{
 
 .column-square-center{
     flex-basis: calc(100% / 3 );
-    background-color: gray;
+    background-color: #f5f5f5;
     border: 10px solid transparent;
 }
 
@@ -375,3 +375,38 @@ span, li, a{
     border-top: 1px solid darkgray;
 }
 
+
+
+/*BACKGROUND COLORS*/
+
+.bg-bordeaux{
+    background-color: #61082b;
+}
+
+.bg-green{
+    background-color: #a2d39b;
+}
+
+.bg-light-light-blue{
+    background-color: lightblue;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-dark-blue{
+    background-color: #0d2481;
+}
+
+.bg-yellow{
+    background-color: #ffd830;
+}
+.bg-light-blue{
+    background-color: #0093ce;
+
+}
+
+.bg-bright-red{
+    background-color: #d5001f;
+}
