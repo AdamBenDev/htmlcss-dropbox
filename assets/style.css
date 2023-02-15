@@ -4,14 +4,11 @@
     box-sizing: border-box;
 }
 
-.container{
+.navbar{
     max-width: 1152px;
     margin: 0 auto;
 }
 
-.d-flex{
-    display: flex;
-}
 
 .row{
     flex-direction: row;
@@ -24,12 +21,24 @@
     margin: 0 auto;
 }
 
-/*HEADER*/
-body{
-    padding-top: 70px;
+.large-container{
+    max-width: 950px;
+    margin: 0 auto;
 }
-header{
+
+/*HEADER*/
+body {
+    font-family: 'Open Sans', sans-serif;
     color: black;
+    padding-top: 70px;
+  }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 3px darkgray;
+    z-index: 1;
 }
 
 ul{
@@ -46,60 +55,130 @@ button{
     max-width: 100%;
   }
 
-.banner{
-    height: 60px;
+  h1{
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  h3{
+    font-size: 30px;
+  }
+
+  p{
+    font-size: 30px;
+  }
+
+  span, li, a, button{
+    font-size: 12px;
+}
+
+button, header li, a{
+    cursor: pointer;
+  }
+  
+/*NAVBAR*/
+.navbar{
+    height: 70px;
     flex-basis: 100%;
-    
-}
-
-.col-1{
-    display:flex;
-    
-}
-
-.col-1 img{
-    padding: 20px;
-}
-
-li{
-    display: list-item;
-    text-align: left;
-}
-
-.col-2{
-    display:flex;
-    justify-content: end;
-    align-items: center;
-}
- /*MAIN*/
-
- .jumbotron{
-    height: 650px;
-    background-color: skyblue;
-    justify-content: center;
-    align-items: center;
- }
-
- .col-3{
-    border: solid black;
-    width: 70%;
-    height: 70%;
     display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.navbar-part-left{
+    flex-basis: 35%;
+    display: flex;
+}
+
+.navbar-part-center{
+    flex-basis: 30%;
+}
+
+.navbar-part-right{
+    flex-basis: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    display: flex;
+    padding: 23px 0;
+}
+
+.logo img{
+    width: 90%;
+    padding-left: 8px;
+}
+.actions ul{
+    display: flex;
+    padding: 20px 0;
+}
+
+.navbar-part-left li{
+    padding: 26px 10px;
+  }
+  
+  .navbar-part-right li{
+    padding: 23px 10px;
+  }
+
+  .actions{
+    display: flex;
+  }
+
+.button-nav{
+    position: relative;
+    bottom: 2.5px;
+}
+ /*JUMBOTRON*/
+
+ .jumbotron-background{
+    height: 480px;
+    background-color: #0093ce;
+    padding-top: 30px;
  }
 
- .all-you-need img{
+ .jumbotron-title{
+    width: 80%;
+    height: 150px;
+ }
+
+ .jumbotron-content{
     width: 100%;
- }
-
- .all-you-need{
     display: flex;
-    flex-direction: column;
  }
 
- .text-img{
-    display: flex;
-
+ .jumbotron-content-description{
+    flex-basis: 35;
  }
+
+ .jumbotron-content-image{
+    flex-basis: 65%;
+    height: 280px;
+}
+
+.jumbotron-content-description > a{
+    color: black;
+}
+
+.arrow-special{
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(15px);
+    }
+  }
 
  /*BUSINESS PLAN*/
 
@@ -142,9 +221,7 @@ li{
     margin-right: 30px;
 }
 
-span, li, a{
-    font-size: 12px;
-}
+
 
 .choice-billing{
     width: 60%;
