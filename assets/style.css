@@ -39,6 +39,7 @@ header{
     right: 0;
     box-shadow: 0 0 3px white;
     z-index: 1;
+    background-color: white;
 }
 
 footer{
@@ -169,10 +170,12 @@ button, header li, a{
 
  /*BUSINESS PLAN*/
 
+
+
 .circle{
-    height: 12px;
-    width: 12px;
     display: inline-block;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     line-height: 12px;
     vertical-align: middle;
@@ -187,7 +190,20 @@ button, header li, a{
     border: 1px solid grey ;
 }
 
-    
+.choice-billing{
+    width: 60%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.choice-billing > ul{
+    display: flex;
+}
+
+.choice-billing li{
+    vertical-align: middle;
+    margin-right: 30px;
+}
 
 
 .small-container{
