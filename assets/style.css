@@ -275,7 +275,7 @@ button, header li, a{
   .customer-plan-features li{
     width: 85%;
   }
-  ul.icon-list > li {
+  ul .icon-list > li {
     display: flex;
   }
   
@@ -321,7 +321,9 @@ button, header li, a{
   .mb-50{
     margin-bottom: 50px;
   }
-
+.mb-5{
+    margin-bottom: 5px;
+}
   .pl-20{
     padding-left: 20px;
   }
@@ -351,6 +353,10 @@ button, header li, a{
     font-size: 12px;
     width: 60%;
 }
+.fa-solid{
+    font-weight: 900;
+}
+
 
 /*PARTNER*/
 
