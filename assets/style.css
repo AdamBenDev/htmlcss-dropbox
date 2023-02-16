@@ -45,7 +45,7 @@ header{
 footer{
     background-color: black;
     color: white;
-    height: 500px;
+    height: 400px;
 }
 
 ul{
@@ -318,6 +318,10 @@ button, header li, a{
     margin-bottom: 10px;
   }
 
+  .mb-40{
+    margin-bottom: 40px;
+  }
+
   .mb-50{
     margin-bottom: 50px;
   }
@@ -557,6 +561,16 @@ button, header li, a{
     gap: 15px;
 }
 
+.footer-top > ul{
+    flex-basis: 20%;
+
+}
+
+.footer-top li{
+    padding-bottom: 7px;
+    font-size: 12px;
+}
+
 .footer-bottom{
     width: 15%;
     display: flex;
@@ -575,6 +589,10 @@ button, header li, a{
     padding-bottom: 10px;
 }
 
+.footer-top > ul{
+    flex-basis: 20%;
+}
+
 .border-empty-footer{
     border-top: 1px solid white;
     width: 10%;
@@ -584,3 +602,4 @@ button, header li, a{
     padding-left: 7px;
     padding-right: 2px;
 }
+
